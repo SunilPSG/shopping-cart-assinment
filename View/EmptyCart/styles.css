@@ -1,0 +1,26 @@
+.head{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    color: #fff;
+    background-color: black;  
+    }
+.footer{
+    position: absolute;
+    bottom: 0px;
+    height: 60px;
+    width: 100%;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    color:#fff;
+    height: 40px;
+    border: none;
+    width: 100%;
+    background-color:rgba(161, 2, 50, 0.852);
+}
